@@ -1,0 +1,121 @@
+header {
+        background: #1a64d6;
+    text-align: center;
+    border-radius: 5pt;
+    height: 25vh;
+    border: 4px solid orange;
+}
+#location {
+    position: relative;
+    top: 20px;
+    left: 225px;
+}
+.day {
+    position: relative;
+        top: 30px;
+        left: 225px;
+}
+.hereNow{
+    position: relative;
+top: -95px;
+right: 475px;
+color: #fff;
+}
+.header-sun {
+    font-size: 100px;
+    position: relative;
+    top: -225px;
+    color: orange;
+}
+   button {
+        display: inline;
+        margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: white;
+        color: #1a64d6;
+        border: 1px solid #1a64d6;
+      }
+      #local {
+        border-color: #fff;
+      }
+          .week {
+              height: 10vh;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+    
+          .week .container {
+            height: 100%;
+              width: 100%;
+              max-width: 700px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              margin: auto;
+                  
+          }
+      .presets {
+        margin: auto;
+       display: flex;
+       max-width: 700px;
+      }
+    .sun {
+        border: 1px solid #1a64d6;
+        border-radius: 5pt;
+        background-color:  orange;
+      }
+         .mon {
+             border: 1px solid #1a64d6;
+             border-radius: 5pt;
+             background-color: orange;
+         }.tue {
+            border: 1px solid #1a64d6;
+            border-radius: 5pt;
+            background-color: orange;
+        }.wed {
+            border: 1px solid #1a64d6;
+            border-radius: 5pt;
+            background-color: orange;
+        }
+      .thur {
+      border: 1px solid #1a64d6;
+      border-radius: 5pt;
+      background-color: orange;
+      }
+      .fri {
+ border: 1px solid #1a64d6;
+border-radius: 5pt;
+ background-color: orange;
+       }
+.sat {
+ border: 1px solid #1a64d6;
+border-radius: 5pt;
+ background-color: orange;
+}
+.snow-icon {
+    font-size: 50px;
+}
+.cloud-icon {
+    font-size: 50px;
+}
+.sun-icon {
+    font-size: 50px;
+}
+.storm-icon {
+    font-size: 50px;
+}

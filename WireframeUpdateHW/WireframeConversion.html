@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wirefram to HTML/CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/9af97bb0fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+
+  <body>
+    <header >
+    <div class="container">
+      <form id="location">
+        
+    <input 
+    type="search" 
+    placeholder="Enter city/zipcode"
+    autocomplete= "off"
+    autofocus= "on"
+    id="search-location-input"
+    />
+    <input type="submit" value="search"/>
+    </div>
+      </form>
+
+      <br>
+      <div class="day">
+    <input type="date">
+    </input>
+    <div class="hereNow">
+    <h1 class = "temperature" id= "temperature">
+        54°
+    </h1>
+    <strong>
+      <span class= "units">
+        <a href="#" id="celsius-link">°C</a> |
+        <a href="#" id="fahrenheit-link">°F</a>
+      </span>
+         <h2 Id="location-input">
+          <button id="local">
+<i class="fa-solid fa-location-pin">
+                </i>
+          </button>
+        Chicago, IL
+    </h2> 
+</strong>
+<p id="current-day-time">
+  <i class="fa-solid fa-clock">
+
+  </i> 
+  12:28 PM CST 
+</p>
+</div>
+  </div>
+<i class="fa-regular fa-sun header-sun"></i>
+</div>
+</div>
+</header>
+<br>
+<section class="week">
+<div class="container text-center">
+  <div class="row row-cols-auto">
+    <div class="sun">
+    <div class="col">Sunday</div>
+    <i class="fa-solid fa-cloud-bolt storm-icon"></i>
+    <h2>
+        56°F
+    </h2>
+    </div>
+    <div class="mon">
+    <div class="col">Monday</div>
+    <i class="fa-solid fa-cloud cloud-icon"></i>
+     <h2>
+        46°F
+    </h2>
+    </div>
+    <div class="tue">
+    <div class="col">Tuesday</div>
+    <i class="fa-solid fa-cloud cloud-icon"></i>
+     <h2>
+        34°F
+    </h2>
+    </div>
+    <div class="wed">
+    <div class="col">Wednesday</div>
+    <i class="fa-regular fa-snowflake snow-icon"></i>
+     <h2>
+        24°F
+    </h2>
+    </div>
+    <div class="thur">
+    <div class="col">Thursday</div>
+    <i class="fa-regular fa-sun sun-icon"></i>
+     <h2>
+        40°F
+    </h2>
+    </div>
+    <div class="fri">
+    <div class="col">Friday</div>
+    <i class="fa-regular fa-sun sun-icon"></i>
+     <h2>
+        54°F
+    </h2>
+    </div>
+    <div class="sat">
+    <div class="col">Saturday</div>
+    <i class="fa-solid fa-cloud cloud-icon"></i>
+     <h2>
+        39°F
+    </h2>
+    </section>
+    <br>
+  </div>
+</div>
+<footer class="presets">
+    <button class="preset1">
+      <i class="fa-solid fa-location-pin"></i>
+        Elgin, IL
+    </button>
+    <button class="preset2">
+      <i class="fa-solid fa-location-pin"></i>
+        Fenton, MO
+    </button>
+    <button class="preset3">
+      <i class="fa-solid fa-location-pin"></i>
+        St. Louis, MO
+    </button>
+    <button class="preset4">
+      <i class="fa-solid fa-location-pin"></i>
+        Fairdale, ND
+    </button>
+    <button class="preset5">
+      <i class="fa-solid fa-location-pin"></i>
+        Niles, IL
+    </button>
+    </footer>
+    <script src="src/script.js"></script>
+  </div>
+  </body>
+</html>
